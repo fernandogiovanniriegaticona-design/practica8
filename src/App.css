@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.buscador-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 400px;
+  text-align: center;
+}
+
+.buscador-container h1 {
+  color: #e55353;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.subtitulo {
+  color: #555;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.buscador-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buscador-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.buscador-form input:focus {
+  border-color: #333;
+}
+
+.buscador-form button {
+  background-color: #212529;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.buscador-form button:hover {
+  background-color: #343a40;
+}
+
+.mensaje-carga {
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.mensaje-error {
+  color: #dc3545;
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.tarjeta-usuario {
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.tarjeta-usuario h3 {
+  margin: 5px 0;
+  color: #24292e;
+}
+
+.alias {
+  color: #586069;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.bio {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  line-height: 1.4;
+}
+
+.btn-perfil {
+  display: inline-block;
+  background-color: #f1f8ff;
+  color: #0366d6;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-perfil:hover {
+  background-color: #e9f2ff;
+}
